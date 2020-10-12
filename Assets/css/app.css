@@ -228,3 +228,40 @@ section.brands div.brand-card text.title{
 section.reviews{
     background-color: #EEECEC;
 }
+section.reviews div.review-card{
+    position: relative;
+    width: 25%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    white-space: normal;
+    font-size: 1vw;
+    color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+}
+section.reviews div.review-card.dark{
+    background-color: #030A17;
+}
+section.reviews div.review-card img{
+    margin-top: 1vw;
+    position: relative;
+    width: 45%;
+    display: block;
+}
+section.reviews div.review-card div.comment{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: block;
+    margin-left: 10%;
+    width: 75%;
+    white-space: normal;
+    line-height: 1.3vw;
+    flex-grow: 1;
+}
+section.reviews div.review-card div.foot{
+    margin-left:5%;
+    width: 90%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
