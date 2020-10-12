@@ -13,7 +13,7 @@
     </head>
     <body>
         <div class="container-flex">
-            <div class="row m-0 title-section">
+            <section class="w-100 m-0 title">
                 <div class="col p-0 vh-100">
                     <div class="position-relative title-screen w-100 h-100">
                         <div class="nav position-absolute top left w-100 d-flex justify-content-between">
@@ -50,8 +50,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row m-0 popular-section d-flex justify-content-between">
+            </section>
+            <section class="w-100 popular d-flex justify-content-between">
                 <div class="heading">
                     <img class="ml-5" src="Assets/img/popular/Heading.svg" alt="Heading">
                 </div>
@@ -131,49 +131,63 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row m-0 news-section pt-5 position-relative">
+            </section>
+            <section class="w-100 news mt-5 py-5 position-relative px-4">
                 <div class="heading mb-4">
                     <img class="ml-5" src="Assets/img/news/Heading.svg" alt="Heading">
                 </div>
-                <div class="row m-0 w-100">
-                    <div class="col-9">
-                        <div class="row m-0">
-                            <div class="col-8 px-2 image-card overflow-hidden position-relative">
-                                .w-100
-                                <img class="h-100 position-absolute top right" src="Assets/img/news/img-grid-1.png" alt="Story of modern Culture">
-                                <div class="banner">
-                                    <div class="title"></div>
-                                    <div class="desc"></div>
-                                </div>
-                            </div>
-                            <div class="col-4 text-card"></div>
-                        </div>
-                        <div class="row m-0 mt-3">
-                            <div class="col-4 news-card overflow-hidden position-relative">
-                                <img class="h-100 position-absolute top right" src="Assets/img/news/img-grid-2.png" alt="Inspirational Look book from young&passion designers">
-                                <div class="text position-absolute bottom left">Inspirational Look book from young&passion designers</div>
-                            </div>
-                            <div class="col-4 text-card">
-                                ///<br/>
-                                50%<br/>
-                                BLACK<br/>
-                                FRIDAY ////S*LE<br/>
-                            </div>
-                            <div class="col-4 image-card overflow-hidden position-relative">
-                                <img class="h-100 position-absolute top right" src="Assets/img/news/img-grid-3.png" alt="Story of modern Culture">
-                                <div class="banner">
-                                    <div class="title"></div>
-                                    <div class="desc"></div>
+                <div class="row m-0 mb-5 w-100 grid-container position-relative">
+                    <div class="spacer"></div>
+                    <div class="news-grid">
+                        <div class="img">
+                            <div style="background-image: url('Assets/img/news/img-grid-1.png')">
+                                <div class="text">
+                                    <div class="blur"></div>
+                                    <div class="content">
+                                        The Story of #MODERN<br/>urban culture
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3 position-relative">
-                        <img class="h-100 position-absolute top right" class="ml-5" src="Assets/img/news/Banner.png" alt="Banner">
+                        <div class="text">
+                            <div style="background-color: #051026;">
+                                ///<br/>Where is<br/>MY AIR ?
+                            </div>
+                        </div>
+                        <div class="ban">
+                            <div class="position-relative" style="background-image: url('Assets/img/news/boost-shoe/back.png')">
+                                <img class="born" src="Assets/img/news/boost-shoe/B%20OR%20N.svg" alt="">
+                                <img class="shoe" src="Assets/img/news/boost-shoe/Shoe.png" alt="">
+                                <img class="brn" src="Assets/img/news/boost-shoe/B%20R%20N.svg" alt="">
+                                <img class="to-boost" src="Assets/img/news/boost-shoe/TOBOOST.svg" alt="">
+                                <img class="button" src="Assets/img/news/boost-shoe/Button.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="new">
+                            <div style="background-image: url('Assets/img/news/img-grid-2.png')">
+                                <div class="text">
+                                    Inspirational Look book from<br/>young&passion designers
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <div class="black">
+                                ///<br/>50%<br/>BLACK<br/>FRIDAY ////S*LE
+                            </div>
+                        </div>
+                        <div class="img">
+                            <div style="background-image: url('Assets/img/news/img-grid-3.png')">
+                                <div class="text">
+                                    <div class="blur"></div>
+                                    <div class="content">
+                                        NEON L//GHTS<br/>of the Instagram
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
 
         <script src="Assets/MDB/js/jquery.min.js"></script>
