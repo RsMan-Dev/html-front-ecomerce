@@ -20,8 +20,11 @@ ul li{
 section.title .title-screen{
     background-color: #EEECEC;
 }
+section.title .title-screen .nav .right img{
+    margin-right: -1px;
+}
 section.title .title-screen .nav .right ul{
-    height: 80%;
+    height: 80px;
 }
 section.title .title-screen .menu-bottom{
     height: 60px;
@@ -198,4 +201,30 @@ section.news .news-grid div.img div div.text div.content{
     color:white;
     font-weight: bold;
     margin-top: -.3vw;
+}
+section.brands{
+    background-color: #EEECEC;
+    padding-top: 128px;
+}
+section.brands div.brand-card{
+    position: relative;
+    width: 20%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+section.brands div.brand-card div.spacer{
+    padding-bottom: 100%;
+}
+section.brands div.brand-card text.title{
+    position: absolute;
+    font-size: 1.2vw;
+    bottom:-2%;
+    right:10%;
+    transform: translateX(100%) rotate(-90deg);
+    transform-origin: top left;
+}
+section.reviews{
+    background-color: #EEECEC;
 }
